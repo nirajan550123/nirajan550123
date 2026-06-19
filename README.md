@@ -1,58 +1,44 @@
-#### Nirajan Tripathi
-## GIS Analyst | Geospatial Data Scientist | Remote Sensing
+## Nirajan Tripathi
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nirajan550123.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirajan-tripathi-5434a8308/)
-[![Email](https://img.shields.io/badge/Email-c2703d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nirajantripathi5523@gmail.com)
+**Geospatial data scientist.** Spatial machine learning, remote sensing, and reproducible analysis pipelines. M.S. Geography (GIS and remote sensing), Texas State University.
 
----
+I build models on spatial data and care about whether they actually hold up: spatial cross-validation, honest reporting of where a model stops working, and code someone else can run. My work spans energy siting, water resources, land-cover change, and urban environment, applied across the US and Nepal.
 
-## Introduction
-
-I am a GIS and geospatial data professional with 4+ years across spatial analysis, remote sensing, and field surveying, plus graduate research in hydroclimatology. I build reproducible, end-to-end geospatial workflows, from satellite imagery and field surveys through PostGIS spatial databases to analysis in Python and R and web mapping, each shipping with documented code and verifiable results.
-
-I am completing an M.S. in Geography (GIS and remote sensing) at Texas State University (GPA 3.84) and am seeking GIS Analyst, GIS Developer, and geospatial data science roles in environment, water resources, energy, and planning.
+Open to GIS Analyst, GIS Developer, and geospatial data science roles. US, open to relocation and remote.
 
 ---
 
-## Featured Projects
+### Featured work
 
-- **[Where Solar Gets Built](https://github.com/nirajan550123/solar-siting-tx)** — Machine-learning analysis of utility-scale solar siting in Texas with a North Carolina transfer test. Grid access outweighs sunshine by ~9x; spatially cross-validated ROC 0.92, validated with leave-one-region-out and an out-of-state transfer.
-- **[Austin Urban Heat Island Story Map](https://nirajan550123.github.io/projects/austin-heat-storymap/)** — Interactive scrollytelling analysis of summer land surface temperature across all 65 Austin neighborhoods, with a PostGIS income join. Canopy–heat correlation r = −0.87.
-- **[GIS & Geospatial Portfolio](https://nirajan550123.github.io/)** — Predictive land-cover modeling, LiDAR rooftop-solar analysis, transit-accessibility tools, and more across environment, water, and planning.
+**[Where Solar Gets Built (and Why It Isn't About Sun)](https://github.com/nirajan550123/solar-siting-tx)**
+A Random Forest model of utility-scale solar siting in Texas, with a North Carolina transfer test. Finding: distance to transmission infrastructure predicts siting roughly an order of magnitude better than solar irradiance. Spatial cross-validated ROC-AUC 0.92, with a full validation ladder and a cross-state transfer test that localizes exactly where the model stops generalizing.
+*Python, scikit-learn, GeoPandas, Earth Engine, SHAP*
 
----
+**[Watershed Land-Cover Simulation (Markov-CA)](https://github.com/nirajan550123/watershed-lulc-markov)**
+A Markov chain and Cellular Automata model that learns 2010 to 2020 land-cover transitions and forecasts where San Antonio grows by 2030, validated at Figure of Merit 0.85 against a persistence baseline.
+*Python, ArcGIS Pro, NLCD*
 
-## Areas of Interest
+**[Rooftop Solar Across Data Environments](https://github.com/nirajan550123/lidar-rooftop-solar)**
+The same rooftop-solar method run on 1 m airborne LiDAR and a 30 m open DSM, quantifying how input-data resolution systematically biases solar estimates.
+*Python, ArcGIS Pro, USGS 3DEP, Copernicus GLO-30*
 
-- Geospatial analysis, modeling, and machine learning
-- Remote sensing and raster-based workflows
-- Python and R for GIS and geospatial automation
-- Flood-risk, hydrology, and watershed analysis
-- Urban growth and land-use planning
-- Energy siting and spatial suitability modeling
-- GNSS / UAV surveying and field data integration
+**[Austin Urban Heat Island Story Map](https://github.com/nirajan550123/austin-heat-storymap)**
+Summer land surface temperature across 65 Austin neighborhoods, measured in Earth Engine and joined to census income through a PostGIS spatial join. Canopy and heat correlate at r = -0.87.
+*Earth Engine, PostGIS, R, Leaflet*
 
----
-
-## Tools & Technologies
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-2C7AC3?style=flat-square&logo=esri&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-0f766e?style=flat-square&logo=postgresql&logoColor=white)
-![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat-square&logo=googleearth&logoColor=white)
-![ERDAS IMAGINE](https://img.shields.io/badge/ERDAS%20IMAGINE-0f766e?style=flat-square)
-![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-0f766e?style=flat-square)
-![Spatial Analysis](https://img.shields.io/badge/Spatial%20Analysis-0f766e?style=flat-square)
-![GNSS / DGPS](https://img.shields.io/badge/GNSS%20%2F%20DGPS-0f766e?style=flat-square)
-![UAV Mapping](https://img.shields.io/badge/UAV%20Mapping-0f766e?style=flat-square)
+More projects at **[nirajan550123.github.io](https://nirajan550123.github.io/)**.
 
 ---
 
-## Connect With Me
+### Toolkit
 
-- **Portfolio:** [nirajan550123.github.io](https://nirajan550123.github.io/)
-- **LinkedIn:** [linkedin.com/in/nirajan-tripathi-5434a8308](https://www.linkedin.com/in/nirajan-tripathi-5434a8308/)
-- **Email:** [nirajantripathi5523@gmail.com](mailto:nirajantripathi5523@gmail.com)
+**Modeling and data:** Python (scikit-learn, GeoPandas, Rasterio, pandas), R (tidyverse, sf), spatial cross-validation, SHAP
+**Remote sensing:** Google Earth Engine, Landsat and Sentinel, NDVI/LST, land-cover classification
+**Spatial and database:** PostgreSQL/PostGIS, spatial SQL, ArcGIS Pro, ArcPy, QGIS
+**Delivery:** Leaflet, GitHub Pages, reproducible project structure
+
+---
+
+### Contact
+
+[Portfolio](https://nirajan550123.github.io/) · [LinkedIn](https://www.linkedin.com/in/nirajan-tripathi-5434a8308/) · nirajantripathi5523@gmail.com
