@@ -1,6 +1,6 @@
 ## Nirajan Tripathi
 
-**Geospatial data scientist.** Spatial machine learning, remote sensing, and reproducible analysis pipelines. M.S. Geography (GIS and remote sensing), Texas State University.
+Geospatial data scientist, Spatial machine learning, remote sensing, and reproducible analysis pipelines. M.S. Geography (GIS and remote sensing), Texas State University.
 
 I build models on spatial data and care about whether they actually hold up: spatial cross-validation, honest reporting of where a model stops working, and code someone else can run. My work spans energy siting, water resources, land-cover change, and urban environment, applied across the US and Nepal.
 
